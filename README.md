@@ -23,6 +23,6 @@ Example:
 
 Public methods:
 
-$llazy.update(elm) - searches the document for new images to manage (or inside elm, if specified)
+$llazy.update([elm]) - searches the document for new images to manage (or inside elm, if specified)
 
 $llazy.load(elm) - explicitly processes/loads the specified element
