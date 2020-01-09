@@ -13,7 +13,13 @@ Example:
 
 &lt;div class="llazy" data-bg="real_image.jpg"&gt;&lt;/div&gt;
 
-&lt;img src="dummy.png" class="llazy" data-srcset="rel_image_320.jpg 320w, real_image_480.jpg 480w"&gt;
+&lt;img src="dummy.png" class="llazy" data-srcset="real_image_320.jpg 320w, real_image_480.jpg 480w"&gt;
 
 &lt;script src="llazy.min.js" async&gt;&lt;/script&gt;
 
+
+Public methods:
+
+$lazy.update(elm) - searches the document for new images to manage (or inside elm, if specified)
+
+$lazy.load(elm) - explicitly processes/loads the specified element
