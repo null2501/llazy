@@ -1,5 +1,5 @@
 ;(function(global){
-  global.$lazy = global.$lazy || new function(){
+  global.$llazy = global.$lazy || new function(){
     var self = this, observer = false;
     self.update = function(obj){
       obj = obj || global.document;
