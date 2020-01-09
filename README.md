@@ -9,11 +9,11 @@ Pen: https://codepen.io/null2501/pen/jOEzmbe
 
 Example:
 
-&lt;img src="dummy.png" class="llazy" data-src="real_image.jpg"&gt;
+&lt;img src="dummy.png" class="llazy" data-src="real_image.jpg"&gt; &lt;!-- IMG SRC --&gt;
 
-&lt;div class="llazy" data-bg="real_image.jpg"&gt;&lt;/div&gt;
+&lt;div class="llazy" data-bg="real_image.jpg"&gt;&lt;/div&gt; &lt;!-- CSS BACKGROUND --&gt;
 
-&lt;img src="dummy.png" class="llazy" data-srcset="real_image_320.jpg 320w, real_image_480.jpg 480w"&gt;
+&lt;img src="dummy.png" class="llazy" data-srcset="real_image_320.jpg 320w, real_image_480.jpg 480w"&gt; &lt;!-- IMG SRCSET --&gt;
 
 &lt;script src="llazy.min.js" async&gt;&lt;/script&gt;
 
