@@ -1,4 +1,4 @@
-# Minimal LazyLoad $lazy
+# Minimal LazyLoad $llazy
 Yet Another Minimal LazyLoad
 
 Supports: IntersectionObserver, src, srcset, CSS background and vintage browsers fallback.
